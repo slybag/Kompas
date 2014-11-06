@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/deleteDb"
+        android:title="Delete Database" />
+
+    <item android:id="@+id/position"
+        android:title="Where am i?"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/showDb"
+        android:title="Show whole unmerged DB"/>
+
+    <item android:id="@+id/mergeDb"
+        android:title="Show whole merged DB" />
+
+    <item android:id="@+id/deleteMerged"
+        android:title="Delete Merged DB" />
+
+    <item android:id="@+id/deleteRP"
+        android:title="Delete RP" />
+
+    <item android:id="@+id/merge"
+        android:title="Do merge" />
+
+</menu>
